@@ -24,7 +24,6 @@ class App extends Component {
             id={friend.id}
             key={friend.id}
             image={friend.image}
-            friendArr={this.state.friends}
             scoreHandler={this.scoreHandler}
           />
         ))}
@@ -56,8 +55,9 @@ class App extends Component {
       }
     }
   }
-  shuffle = (array) => {
-    let currentIndex = array.length, temporaryValue, randomIndex;
+  shuffle = () => {
+    let tempArr=this.state.friends;
+    let currentIndex = tempArr.length, temporaryValue, randomIndex;
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
 
@@ -66,12 +66,12 @@ class App extends Component {
       currentIndex -= 1;
 
       // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+      temporaryValue = tempArr[currentIndex];
+      tempArr[currentIndex] = tempArr[randomIndex];
+      tempArr[randomIndex] = temporaryValue;
     }
     this.setState({
-      friends: array
+      friends: tempArr
     });
   }
 }

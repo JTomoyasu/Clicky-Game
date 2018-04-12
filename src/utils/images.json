@@ -73,5 +73,30 @@
         "id": 15,
         "key": 15,
         "image": "/images/Zuko.png"
+    },
+    {
+        "id": 16,
+        "key": 16,
+        "image": "/images/Tenzin.png"
+    },
+    {
+        "id": 17,
+        "key": 17,
+        "image": "/images/Amon.png"
+    },
+    {
+        "id": 18,
+        "key": 18,
+        "image": "/images/Zhu_Li.png"
+    },
+    {
+        "id": 19,
+        "key": 19,
+        "image": "/images/Varrick.png"
+    },
+    {
+        "id": 20,
+        "key": 20,
+        "image": "/images/Lin_Beifong.png"
     }
 ]
