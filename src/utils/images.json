@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "key": 1,
+        "image": "/images/Aang.png"
+    },
+    {
+        "id": 2,
+        "key": 2,
+        "image": "/images/Appa.png"
+    },
+    {
+        "id": 3,
+        "key": 3,
+        "image": "/images/Asami_Sato.png"
+    },
+    {
+        "id": 4,
+        "key": 4,
+        "image": "/images/Azula.png"
+    },
+    {
+        "id": 5,
+        "key": 5,
+        "image": "/images/Bolin.png"
+    },
+    {
+        "id": 6,
+        "key": 6,
+        "image": "/images/Iroh.png"
+    },
+    {
+        "id": 7,
+        "key": 7,
+        "image": "/images/Jinora.png"
+    },
+    {
+        "id": 8,
+        "key": 8,
+        "image": "/images/Katara.png"
+    },
+    {
+        "id": 9,
+        "key": 9,
+        "image": "/images/Korra.png"
+    },
+    {
+        "id": 10,
+        "key": 10,
+        "image": "/images/Mako.png"
+    },
+    {
+        "id": 11,
+        "key": 11,
+        "image": "/images/Momo.png"
+    },
+    {
+        "id": 12,
+        "key": 12,
+        "image": "/images/Ozai.png"
+    },
+    {
+        "id": 13,
+        "key": 13,
+        "image": "/images/Sokka.png"
+    },
+    {
+        "id": 14,
+        "key": 14,
+        "image": "/images/Toph_Beifong.png"
+    },
+    {
+        "id": 15,
+        "key": 15,
+        "image": "/images/Zuko.png"
+    }
+]
