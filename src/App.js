@@ -42,17 +42,16 @@ class App extends Component {
       newUsed.push(id);
       let newScore=this.state.score;
       newScore++;
+      let newHighScore=this.state.highscore;
+      if(newScore>newHighScore){
+        console.log("here",this.state.score,this.state.highscore);
+        newHighScore=newScore;
+      }
       this.setState({
         score:newScore,
-        used:newUsed
+        used:newUsed,
+        highscore:newHighScore
       });
-      if(this.state.score>this.state.highscore){
-        let newHighScore=this.state.highscore;
-        newHighScore++;
-        this.setState({
-          highscore:newHighScore
-        });
-      }
     }
   }
   shuffle = () => {
